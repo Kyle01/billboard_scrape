@@ -3,7 +3,6 @@ require "open-uri"
 require "ostruct"
 
 class BillboardScrape 
-
     def initialize 
         billboard_url = 'https://www.billboard.com/charts/hot-100/'
         doc = Nokogiri::HTML(URI.open(billboard_url))
