@@ -5,6 +5,8 @@ ruby '~> 2.7.2'
 gem 'httparty'
 gem 'nokogiri'
 gem 'open-uri'
+gem "google-cloud-firestore"
+gem 'dotenv'
 
 group :test do 
     gem 'pry-byebug'
